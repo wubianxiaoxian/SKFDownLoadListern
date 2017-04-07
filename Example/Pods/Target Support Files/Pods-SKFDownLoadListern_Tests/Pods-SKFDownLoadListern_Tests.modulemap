@@ -1,0 +1,6 @@
+framework module Pods_SKFDownLoadListern_Tests {
+  umbrella header "Pods-SKFDownLoadListern_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

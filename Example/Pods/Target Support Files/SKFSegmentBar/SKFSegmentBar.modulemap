@@ -1,0 +1,6 @@
+framework module SKFSegmentBar {
+  umbrella header "SKFSegmentBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

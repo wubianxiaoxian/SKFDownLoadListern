@@ -1,0 +1,6 @@
+framework module SKFSqliteLib {
+  umbrella header "SKFSqliteLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

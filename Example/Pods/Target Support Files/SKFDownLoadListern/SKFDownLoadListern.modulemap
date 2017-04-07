@@ -1,0 +1,6 @@
+framework module SKFDownLoadListern {
+  umbrella header "SKFDownLoadListern-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SKFRemotePlayerLib {
+  umbrella header "SKFRemotePlayerLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

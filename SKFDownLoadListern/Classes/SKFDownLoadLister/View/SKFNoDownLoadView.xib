@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bED-0R-XnE" customClass="SKFNoDownLoadView">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="239"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oH5-nZ-bh7">
+                    <rect key="frame" x="81" y="166" width="80" height="30"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="nQD-y4-x5C"/>
+                        <constraint firstAttribute="height" constant="30" id="zLp-Rw-7zK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="去看看">
+                        <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="goView:" destination="bED-0R-XnE" eventType="touchUpInside" id="lev-cF-BsM"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SKFDownLoadListern.bundle/noData_download" translatesAutoresizingMaskIntoConstraints="NO" id="o5N-W5-LA6">
+                    <rect key="frame" x="46" y="0.0" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="Kcc-X0-uW8"/>
+                        <constraint firstAttribute="height" constant="150" id="idH-3c-NWE"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="o5N-W5-LA6" firstAttribute="centerX" secondItem="bED-0R-XnE" secondAttribute="centerX" id="5w8-fo-22c"/>
+                <constraint firstItem="oH5-nZ-bh7" firstAttribute="centerX" secondItem="bED-0R-XnE" secondAttribute="centerX" id="QqS-K9-4L6"/>
+                <constraint firstItem="o5N-W5-LA6" firstAttribute="top" secondItem="bED-0R-XnE" secondAttribute="top" id="VJ8-R6-Y4L"/>
+                <constraint firstItem="oH5-nZ-bh7" firstAttribute="top" secondItem="o5N-W5-LA6" secondAttribute="bottom" constant="16" id="h2Q-ZO-vLB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="noDataImageView" destination="o5N-W5-LA6" id="Ymq-DJ-Z4m"/>
+            </connections>
+            <point key="canvasLocation" x="-14" y="-16"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SKFDownLoadListern.bundle/noData_download" width="16" height="16"/>
+    </resources>
+</document>

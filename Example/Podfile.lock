@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MJExtension (3.0.13)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SKFDownLoadLib (0.3.0)
+  - SKFDownLoadListern (0.1.0):
+    - MJExtension
+    - SDWebImage
+    - SKFDownLoadLib
+    - SKFFMBase/Category
+    - SKFFMBase/Network
+    - SKFRemotePlayerLib
+    - SKFSegmentBar
+    - SKFSqliteLib
+  - SKFFMBase/Category (0.4.0)
+  - SKFFMBase/Network (0.4.0):
+    - AFNetworking
+  - SKFRemotePlayerLib (0.2.0)
+  - SKFSegmentBar (0.1.1)
+  - SKFSqliteLib (0.1.1)
+
+DEPENDENCIES:
+  - SKFDownLoadListern (from `../`)
+
+EXTERNAL SOURCES:
+  SKFDownLoadListern:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SKFDownLoadLib: d08b39793cea9702c51cc6e2daeef1ddb0ee7eda
+  SKFDownLoadListern: 1af3895d7e1af059ec9059b68c3a52bd3538df5b
+  SKFFMBase: bf20b878f932fae7fd9da01c3d2e8a88db245126
+  SKFRemotePlayerLib: afc016605e199d0f3c193e0bd80318c3e50be160
+  SKFSegmentBar: 2cc9761bbf2dcacc334cb8b22ee0d949a68378c4
+  SKFSqliteLib: 2a80ea1a6add2a18a88b05a9d45d9b37c7f6a49f
+
+PODFILE CHECKSUM: 74a92deae58438b5b503ea1fe7ab8f4764963d24
+
+COCOAPODS: 1.2.0

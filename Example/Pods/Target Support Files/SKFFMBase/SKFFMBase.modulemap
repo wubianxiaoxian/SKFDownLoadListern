@@ -1,0 +1,6 @@
+framework module SKFFMBase {
+  umbrella header "SKFFMBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

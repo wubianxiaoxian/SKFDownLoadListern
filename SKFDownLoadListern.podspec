@@ -32,11 +32,22 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SKFDownLoadListern/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SKFDownLoadListern' => ['SKFDownLoadListern/Assets/*.png']
-  # }
+   s.resource_bundles = {
+    'SKFDownLoadListern' => ['SKFDownLoadListern/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+s.dependency 'SKFFMBase/Category'
+s.dependency 'SKFFMBase/Network'
+
+s.dependency 'SKFDownLoadLib'
+s.dependency 'SKFSegmentBar'
+
+s.dependency 'SKFRemotePlayerLib'
+s.dependency 'SKFSqliteLib'
+
+s.dependency 'SDWebImage'
+s.dependency 'MJExtension'
 end
